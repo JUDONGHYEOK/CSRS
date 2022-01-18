@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 @font-face {
   font-family: 'NanumGothic KR';
   font-style: normal;
@@ -31,4 +34,32 @@
   font-style: normal;
   font-weight: normal;
   src: url('assets/fonts/LibreBaskerville.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 100;
+  src: url('assets/fonts/AppleSDGothicNeoL.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/AppleSDGothicNeoM.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 500;
+  src: url('assets/fonts/AppleSDGothicNeoEB.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: bold;
+  src: url('assets/fonts/AppleSDGothicNeoEB.ttf') format('truetype');
 }

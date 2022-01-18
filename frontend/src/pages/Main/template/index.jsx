@@ -5,7 +5,7 @@ import * as S from './style';
 
 function MainTemplate({ categories, links }) {
   return (
-    <BasedTemplate>
+    <BasedTemplate footer>
       <S.CategoryGridContainer>
         <S.GuideTextContainer>
           <S.GuideTitle bold>새로운 작품</S.GuideTitle>

@@ -26,4 +26,5 @@ export const FooterWrapper = styled.div`s
   ${commonStyle}
   height: 21vh;
   max-height: 20rem;
+  min-width:940px;
 `;

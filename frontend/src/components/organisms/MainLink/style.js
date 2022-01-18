@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import Img from 'components/atoms/Img';
-
 export const Background = styled.div`
   position: relative;
   width: 100%;
@@ -10,11 +8,11 @@ export const Background = styled.div`
 
 export const LinkContainer = styled.div`
   display: flex;
-  width: 70%;
+  width: 65%;
   align-items: center;
   gap: 12%;
   position: absolute;
-  margin-right: 10%;
+  margin-right: 8%;
   right: 0px;
-  top: 10rem;
+  top: 50%;
 `;

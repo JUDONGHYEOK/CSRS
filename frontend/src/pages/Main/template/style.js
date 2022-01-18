@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Text from 'components/atoms/Text';
 
 export const CategoryGridContainer = styled.div`
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,5 +29,6 @@ export const GuideSubTitle = styled(Text)`
 
 export const LinkContainer = styled.div`
   width: 100%;
-  margin-top: 30px;
+  margin-top: 100px;
+  margin-bottom: 250px;
 `;

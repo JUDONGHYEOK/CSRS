@@ -2,6 +2,7 @@ import React from 'react';
 
 import * as S from './style';
 import { NavBar } from 'components';
+import Footer from 'components/organisms/Footer';
 
 export default function BasedTemplate({ children, footer }) {
   if (!footer) {
@@ -20,7 +21,9 @@ export default function BasedTemplate({ children, footer }) {
         <NavBar />
       </S.HeaderWrapper>
       <S.ChildrenWrapper>{children}</S.ChildrenWrapper>
-      <S.FooterWrapper></S.FooterWrapper>
+      <S.FooterWrapper>
+        <Footer />
+      </S.FooterWrapper>
     </div>
   );
 }
