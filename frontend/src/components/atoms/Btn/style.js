@@ -8,6 +8,7 @@ const ButtonStyle = css`
   text-decoration: none;
   color: black;
   font-family: NanumGothic KR;
+  padding: 0;
 `;
 
 export const NavBtn = styled.button`

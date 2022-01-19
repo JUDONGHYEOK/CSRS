@@ -18,10 +18,25 @@ const CATEGORIES = [
   { name: 'WORK ON PAPER', img: CATEGORY_IMG.WORK_ON_PAPER }
 ];
 
+const CATEGORY_NAMES = [
+  'NEW',
+  'Painting',
+  'Photography',
+  'Sculpture',
+  'Jewelry',
+  'Prints',
+  'Work on Paper',
+  'Textile',
+  'Illustration',
+  'Graphic design',
+  'Collages'
+];
+
 export {
   NAV_BAR_LOGIN,
   NAV_BAR_LOGOUT,
   NAV_BAR_SIGN_UP,
   NAV_BAR_SETTING,
-  CATEGORIES
+  CATEGORIES,
+  CATEGORY_NAMES
 };
