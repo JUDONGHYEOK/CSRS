@@ -18,6 +18,7 @@ import PRINTS from './prints.png';
 import SCULPTURE from './sculpture.png';
 import TEXT_TILE from './textile.png';
 import WORK_ON_PAPER from './workonpaper.png';
+import CHEVERON_RIGHT from './cheveronright.png';
 
 export const img = {
   Logo,
@@ -28,7 +29,8 @@ export const img = {
   NavShoppingList,
   LogoOnlyImage,
   MAIN_ANCHOR,
-  ARROW_RIGHT
+  ARROW_RIGHT,
+  CHEVERON_RIGHT
 };
 
 export const CATEGORY_IMG = {
