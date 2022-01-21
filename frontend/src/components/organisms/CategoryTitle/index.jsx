@@ -1,4 +1,3 @@
-import Img from 'components/atoms/Img';
 import * as Styled from './style';
 import { img } from 'assets/img';
 

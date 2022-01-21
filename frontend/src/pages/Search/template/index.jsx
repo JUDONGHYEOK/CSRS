@@ -3,7 +3,7 @@ import React from 'react';
 import BasedTemplate from 'pages/BasedTemplate/templates';
 import * as S from './style';
 
-function SearchTemplate({ categories, title, items }) {
+function SearchTemplate({ categories, title, items, pagination }) {
   return (
     <BasedTemplate footer>
       <S.SearchContainer>
@@ -13,6 +13,7 @@ function SearchTemplate({ categories, title, items }) {
           {items}
         </S.ItemsContainer>
       </S.SearchContainer>
+      <S.PaginationContainer>{pagination}</S.PaginationContainer>
     </BasedTemplate>
   );
 }

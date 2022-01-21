@@ -18,5 +18,15 @@ export const CategoryContainer = styled.aside`
 `;
 
 export const ItemsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+`;
+
+export const PaginationContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
   width: 100%;
 `;
